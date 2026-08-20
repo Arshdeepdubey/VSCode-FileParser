@@ -1,0 +1,45 @@
+name: Release VSIX
+
+on:
+  push:
+    tags:
+      - 'v*.*.*' # Triggers automatically when you push a tag like v0.0.1
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    
+    # Grants GitHub Actions permission to write the release and attach assets
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install Dependencies
+        uses: cypress-io/github-action@v6 # Optional or use standard npm ci
+        with:
+          runTests: false
+      - run: npm ci
+
+      - name: Run Tests
+        run: npm test
+
+      - name: Compile Extension
+        run: npm run compile
+
+      - name: Package Extension (.vsix)
+        run: npx @vscode/vsce package
+
+      - name: Publish GitHub Release with VSIX Asset
+        uses: softprops/action-gh-release@v2
+        with:
+          files: "*.vsix"
+          generate_release_notes: true
