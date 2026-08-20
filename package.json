@@ -2,7 +2,7 @@
   "name": "fileparse",
   "displayName": "file-parser",
   "description": "parse file in common industry wide format",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.134.0"
   },
@@ -19,10 +19,18 @@
         "viewType": "fileParser.jsonViewer",
         "displayName": "Parsed JSON Viewer",
         "selector": [
-          { "filenamePattern": "*.csv" },
-          { "filenamePattern": "*.txt" },
-          { "filenamePattern": "*.parquet" },
-          { "filenamePattern": "*.xlsx" }
+          {
+            "filenamePattern": "*.csv"
+          },
+          {
+            "filenamePattern": "*.txt"
+          },
+          {
+            "filenamePattern": "*.parquet"
+          },
+          {
+            "filenamePattern": "*.xlsx"
+          }
         ],
         "priority": "default"
       }
