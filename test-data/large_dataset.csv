@@ -1,0 +1,51 @@
+id,customer_name,email,phone,city,state,purchase_date,amount,product,category
+1,John Smith,john.smith@example.com,555-0101,New York,NY,2024-01-15,249.99,Laptop Bag,Electronics
+2,Sarah Johnson,sarah.j@example.com,555-0102,Los Angeles,CA,2024-01-16,149.99,USB Hub,Electronics
+3,Michael Brown,m.brown@example.com,555-0103,Chicago,IL,2024-01-17,399.99,Monitor Stand,Furniture
+4,Emily Davis,emily.davis@example.com,555-0104,Houston,TX,2024-01-18,89.99,Keyboard Cover,Electronics
+5,Robert Wilson,r.wilson@example.com,555-0105,Phoenix,AZ,2024-01-19,199.99,Desk Lamp,Lighting
+6,Jessica Miller,j.miller@example.com,555-0106,Philadelphia,PA,2024-01-20,1299.99,Laptop,Electronics
+7,William Taylor,w.taylor@example.com,555-0107,San Antonio,TX,2024-01-21,79.99,Mouse Pad,Accessories
+8,Lisa Anderson,l.anderson@example.com,555-0108,San Diego,CA,2024-01-22,449.99,Monitor,Electronics
+9,David Thomas,d.thomas@example.com,555-0109,Dallas,TX,2024-01-23,29.99,USB Cable,Accessories
+10,Jennifer Lee,j.lee@example.com,555-0110,San Jose,CA,2024-01-24,599.99,Standing Desk,Furniture
+11,James Martinez,j.martinez@example.com,555-0111,Austin,TX,2024-01-25,89.99,Wireless Mouse,Electronics
+12,Maria Garcia,m.garcia@example.com,555-0112,Jacksonville,FL,2024-01-26,149.99,Mechanical Keyboard,Electronics
+13,Christopher Rodriguez,c.rodriguez@example.com,555-0113,Fort Worth,TX,2024-01-27,249.99,Monitor Arm,Furniture
+14,Patricia Hernandez,p.hernandez@example.com,555-0114,Columbus,OH,2024-01-28,99.99,HDMI Cable,Accessories
+15,Daniel Lopez,d.lopez@example.com,555-0115,Charlotte,NC,2024-01-29,1899.99,Gaming PC,Electronics
+16,Barbara White,b.white@example.com,555-0116,San Francisco,CA,2024-01-30,199.99,Office Chair,Furniture
+17,Mark Harris,m.harris@example.com,555-0117,Indianapolis,IN,2024-01-31,49.99,Screen Protector,Accessories
+18,Susan Young,s.young@example.com,555-0118,Austin,TX,2024-02-01,299.99,Printer,Electronics
+19,Donald King,d.king@example.com,555-0119,Seattle,WA,2024-02-02,149.99,Webcam,Electronics
+20,Karen Scott,k.scott@example.com,555-0120,Denver,CO,2024-02-03,79.99,Laptop Stand,Furniture
+21,Steven Green,s.green@example.com,555-0121,Washington,DC,2024-02-04,89.99,USB Hub 4-Port,Electronics
+22,Dorothy Addy,d.addy@example.com,555-0122,Boston,MA,2024-02-05,249.99,Laptop Sleeve,Accessories
+23,Edward Nelson,e.nelson@example.com,555-0123,El Paso,TX,2024-02-06,199.99,External Hard Drive,Electronics
+24,Betty Carter,b.carter@example.com,555-0124,Nashville,TN,2024-02-07,449.99,Ultrawide Monitor,Electronics
+25,Ronald Mitchell,r.mitchell@example.com,555-0125,Memphis,TN,2024-02-08,29.99,Desk Organizer,Accessories
+26,Helen Perez,h.perez@example.com,555-0126,Boston,MA,2024-02-09,99.99,Cable Management,Accessories
+27,Timothy Roberts,t.roberts@example.com,555-0127,Portland,OR,2024-02-10,1499.99,Mechanical Keyboard Pro,Electronics
+28,Deborah Phillips,d.phillips@example.com,555-0128,Las Vegas,NV,2024-02-11,199.99,Monitor Light Bar,Lighting
+29,Harold Campbell,h.campbell@example.com,555-0129,Louisville,KY,2024-02-12,249.99,Desk Chair Pro,Furniture
+30,Carolyn Parker,c.parker@example.com,555-0130,Baltimore,MD,2024-02-13,89.99,Laptop Cooler,Electronics
+31,Paul Evans,p.evans@example.com,555-0131,Milwaukee,WI,2024-02-14,149.99,Wireless Charger,Electronics
+32,Janet Edwards,j.edwards@example.com,555-0132,Albuquerque,NM,2024-02-15,199.99,USB-C Hub,Electronics
+33,Peter Collins,p.collins@example.com,555-0133,Tucson,AZ,2024-02-16,79.99,Monitor Riser,Furniture
+34,Anna Stewart,a.stewart@example.com,555-0134,Fresno,CA,2024-02-17,249.99,Keyboard Wrist Rest,Accessories
+35,Joshua Sanchez,j.sanchez@example.com,555-0135,Sacramento,CA,2024-02-18,99.99,Desk Fan,Appliances
+36,Kathleen Morris,k.morris@example.com,555-0136,Long Beach,CA,2024-02-19,449.99,Gaming Monitor,Electronics
+37,Eric Rogers,e.rogers@example.com,555-0137,Kansas City,MO,2024-02-20,29.99,Notebook,Stationery
+38,Brenda Reed,b.reed@example.com,555-0138,Mesa,AZ,2024-02-21,149.99,Phone Stand,Accessories
+39,Frank Cook,f.cook@example.com,555-0139,Virginia Beach,VA,2024-02-22,299.99,Docking Station,Electronics
+40,Ruth Morgan,r.morgan@example.com,555-0140,Atlanta,GA,2024-02-23,189.99,Monitor Arm Mount,Furniture
+41,Ryan Bell,r.bell@example.com,555-0141,Denver,CO,2024-02-24,249.99,Portable Monitor,Electronics
+42,Diane Murphy,d.murphy@example.com,555-0142,Miami,FL,2024-02-25,99.99,Desk Pad,Accessories
+43,Gary Bailey,g.bailey@example.com,555-0143,Oakland,CA,2024-02-26,199.99,Monitor Hood,Accessories
+44,Catherine Rivera,c.rivera@example.com,555-0144,Minneapolis,MN,2024-02-27,1299.99,Laptop Ultra,Electronics
+45,Nicholas Peterson,n.peterson@example.com,555-0145,Tulsa,OK,2024-02-28,79.99,Desk Organizer Pro,Accessories
+46,Christine Gray,c.gray@example.com,555-0146,Cleveland,OH,2024-02-29,149.99,Webcam Pro,Electronics
+47,Jonathan Ramirez,j.ramirez@example.com,555-0147,New Orleans,LA,2024-03-01,249.99,Keyboard Light,Lighting
+48,Sandra James,s.james@example.com,555-0148,Arlington,TX,2024-03-02,89.99,USB Extension Cable,Accessories
+49,Justin Watson,j.watson@example.com,555-0149,Austin,TX,2024-03-03,199.99,Monitor Calibrator,Electronics
+50,Ashley Brooks,a.brooks@example.com,555-0150,Bakersfield,CA,2024-03-04,449.99,Premium Monitor,Electronics
