@@ -1,0 +1,6 @@
+interface:
+  display_name: "VSCode FileParser"
+  short_description: "Repo-specific patterns and workflows for VSCode-FileParser"
+  default_prompt: "Use the VSCode-FileParser repo skill to follow existing architecture, testing, and workflow conventions."
+policy:
+  allow_implicit_invocation: true
