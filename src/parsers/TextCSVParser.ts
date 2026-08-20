@@ -123,17 +123,18 @@ export class TextCSVParser implements IStreamParser {
 			const fields = this.parseLine(line);
 
 			if (isFirstLine) {
-				// First line is header
-				this.headers = fields;
+				// First line is header - filter out empty column names
+				this.headers = fields.filter(header => header.trim() !== '');
 				isFirstLine = false;
 				continue;
 			}
 
 			// Create row object from headers and fields
+			// Only include fields that correspond to filtered (non-empty) headers
 			const data: Record<string, any> = {};
 			for (let i = 0; i < this.headers.length; i++) {
 				const header = this.headers[i];
-				const value = fields[i] || null;
+				const value = i < fields.length ? fields[i] : '';
 				data[header] = this.tryParseValue(value);
 			}
 
@@ -188,7 +189,9 @@ export class TextCSVParser implements IStreamParser {
 
 			rl.on('line', (line) => {
 				if (isFirstLine) {
-					this.headers = this.parseLine(line);
+					const allHeaders = this.parseLine(line);
+					// Filter out empty column headers
+					this.headers = allHeaders.filter(header => header.trim() !== '');
 					isFirstLine = false;
 				} else if (line.trim()) {
 					totalRows++;

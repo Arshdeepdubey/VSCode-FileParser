@@ -86,7 +86,9 @@ class VirtualScroller {
    * Measure actual row height from first rendered row
    */
   measureRowHeight() {
-    if (this.container.children.length === 0) return;
+    if (this.container.children.length === 0) {
+      return;
+    }
     
     const firstRow = this.container.children[0];
     this.measuredRowHeight = firstRow.offsetHeight;
