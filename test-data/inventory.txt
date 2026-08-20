@@ -1,0 +1,11 @@
+product	category	price	quantity	in_stock
+Laptop	Electronics	1299.99	15	true
+Mouse	Electronics	29.99	150	true
+Keyboard	Electronics	89.99	75	true
+Monitor	Electronics	449.99	20	true
+Desk Chair	Furniture	199.99	30	true
+Standing Desk	Furniture	599.99	10	false
+Coffee Maker	Appliances	99.99	8	true
+Microwave	Appliances	149.99	5	true
+Printer	Electronics	299.99	12	true
+USB Cable	Electronics	9.99	500	true

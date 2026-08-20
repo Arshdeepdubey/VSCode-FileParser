@@ -1,0 +1,11 @@
+name,age,department,salary,active
+Alice Johnson,32,Engineering,125000,true
+Bob Smith,28,Sales,85000,true
+Charlie Brown,45,Management,150000,true
+Diana Prince,29,Engineering,120000,true
+Eve Wilson,51,Operations,130000,false
+Frank Miller,26,Sales,75000,true
+Grace Lee,38,Engineering,135000,true
+Henry Davis,41,Management,140000,true
+Iris Chen,33,Engineering,128000,true
+Jack Wilson,27,Sales,80000,true
